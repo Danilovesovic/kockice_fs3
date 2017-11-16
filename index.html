@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Local Storage</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a href="" class="navbar-brand">Bacanje kockice</a>
+		</div>
+	</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<div class="row">
+				<div id="rr" class="col-lg-6 col-lg-offset-3">
+					<button class="btn btn-danger form-control">
+					Player1 <span id="pl1Score">0</span> : <span id="pl2Score">0</span> Player2
+				</button>
+				</div>
+			</div><br><br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<div id="mainPanel" class="panel panel-default">
+						<div class="panel-heading">
+							<h3>Player 1</h3>
+						</div>
+						<div id="pl1Field" class="panel-body battleField">
+							0
+						</div>
+						<div class="panel-footer">
+							<button id="pl1Btn" class="btn btn-primary form-control">New Cube</button>
+						</div>
+						<div class="rounds">0</div>
+					</div>
+
+				</div>
+				<div class="col-lg-6 text-center">
+						<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3>Player 2</h3>
+						</div>
+						<div id="pl2Field" class="panel-body battleField">
+							0
+						</div>
+						<div class="panel-footer">
+							<button id="pl2Btn" class="btn btn-primary form-control">New Cube</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="main.js"></script>
+</body>
+</html>
